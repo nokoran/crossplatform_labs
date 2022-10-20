@@ -4,4 +4,4 @@ UEWWD
 
 U
 WED
-S 3
+S 
