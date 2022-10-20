@@ -26,19 +26,16 @@ namespace lab2
             string[] input = {"S", "10"};//Console.ReadLine()!.Split("");
             
             list.Add(input[0]);
+            list.Add(rules[input[0]]);
             
-            int moves = Int32.Parse(input[1]) - 1;
+            int moves = Int32.Parse(input[1]) - 2;
+           
             
             int iterations = 1;
             
             for (;moves != 0; moves--)
             {
                 var temp = new List<string>();
-                if (moves == Int32.Parse(input[1]) - 1)
-                {
-                    list.Add(rules[input[0]]);
-                    continue;
-                }
                 
                 foreach (var move in list[iterations])
                 {
