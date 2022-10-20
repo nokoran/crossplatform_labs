@@ -4,10 +4,46 @@
     {
         static void Main(string[] args)
         {
-            var a = Int32.Parse(Console.ReadLine()!);
-            var b = Int32.Parse(Console.ReadLine()!);
-            var c = Int32.Parse(Console.ReadLine()!);
-            
+            string[] lines;
+            try
+            {
+                lines = File.ReadAllLines(@"C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab1\INPUT.txt");
+            }
+            catch (FileNotFoundException e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+            if (lines.Length != 3)
+            {
+                throw new ArgumentException(@"You must have 3 lines in input file");
+            }
+            int a, b, c;
+
+            try
+            {
+                a = Int32.Parse(lines[0]);
+                b = Int32.Parse(lines[1]);
+                c = Int32.Parse(lines[2]);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Wrong data type of input data in file.");
+            }
+
+            if (0 <= a && a < 109)
+            {
+                throw new Exception("a is out of range");
+            }
+            if (0 <= b&& b < 109)
+            {
+                throw new Exception("b is out of range");
+            }
+            if (0 <= c && c < 109)
+            {
+                throw new Exception("c is out of range");
+            }
+
             List<int> a_combinations = new List<int>();
             List<int> b_combinations = new List<int>();
             List<(int x, int y)> result = new List<(int x, int y)>();
@@ -40,12 +76,31 @@
 
             if (!result.Any())
             {
+                try
+                {
+                    File.WriteAllText(@"C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab1\OUTPUT.txt", "NO");
+                }
+                catch (FileNotFoundException e)
+                {
+                    Console.WriteLine(e);
+                    throw;
+                }
                 Console.WriteLine("NO");
             }
             else
             {
+                
                 Console.WriteLine("YES");
                 var temp = result.FirstOrDefault(o => o.x == result.Min(r => r.x));
+                try
+                {
+                    File.WriteAllText(@"C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab1\OUTPUT.txt", $"YES {temp.x} {temp.x}");
+                }
+                catch (FileNotFoundException e)
+                {
+                    Console.WriteLine(e);
+                    throw;
+                }
                 Console.WriteLine(temp.x);
                 Console.WriteLine(temp.y);
             }
