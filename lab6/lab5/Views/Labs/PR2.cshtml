@@ -1,0 +1,56 @@
+﻿@model lab5.ClassLibrary.lab2DTO
+@{
+    ViewData["Title"] = "PR2";
+}
+
+<h2>@ViewData["Title"]</h2>
+<form method="post" enctype="multipart/form-data" asp-controller="Labs" asp-action="PR2">
+    <div class="form-group">
+        <label for="n">n</label>
+        <input type="text" class="form-control" id="n" name="n" asp-for="n">
+    </div>
+    <div class="form-group">
+        <label for="s">s</label>
+        <input type="text" class="form-control" id="s" name="s" asp-for="s">
+    </div>
+    <div class="form-group">
+        <label for="w">w</label>
+        <input type="text" class="form-control" id="w" name="w" asp-for="w">
+    </div>
+    <div class="form-group">
+        <label for="e">e</label>
+        <input type="text" class="form-control" id="e" name="e" asp-for="e">
+    </div>
+    <div class="form-group">
+        <label for="u">u</label>
+        <input type="text" class="form-control" id="u" name="u" asp-for="u">
+    </div>
+    <div class="form-group">
+        <label for="d">d</label>
+        <input type="text" class="form-control" id="d" name="d" asp-for="d">
+    </div>
+    <div class="form-group">
+        <label for="firstMove">First move</label>
+        <input required type="text" class="form-control" id="firstMove" name="firstMove" asp-for="firstMove">
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
+@if(Model != null)
+{
+    <div class="container mt-5">
+        @if(Model.isSuccessful)
+        {
+            <div class="row">
+                <label for="response">Response</label>
+                <input type="text" id="response" value="@Model.response">
+            </div>
+        }
+        @if (!string.IsNullOrEmpty(Model.error))
+        {
+            <div class="row">
+                <label for="error"></label>
+                <input type="text" id="error" value="@Model.error">
+            </div>
+        }
+    </div>
+}

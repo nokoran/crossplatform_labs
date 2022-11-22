@@ -1,0 +1,12 @@
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\bin\Debug\net6.0\lab5.ClassLibrary.deps.json
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\bin\Debug\net6.0\lab5.ClassLibrary.dll
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\bin\Debug\net6.0\lab5.ClassLibrary.pdb
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\obj\Debug\net6.0\lab5.ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\obj\Debug\net6.0\lab5.ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\obj\Debug\net6.0\lab5.ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\obj\Debug\net6.0\lab5.ClassLibrary.AssemblyInfo.cs
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\obj\Debug\net6.0\lab5.ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\obj\Debug\net6.0\lab5.ClassLibrary.dll
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\obj\Debug\net6.0\refint\lab5.ClassLibrary.dll
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\obj\Debug\net6.0\lab5.ClassLibrary.pdb
+C:\Users\nokkoran\Documents\4Course\CrossPlatform\lab5\lab5.ClassLibrary\obj\Debug\net6.0\ref\lab5.ClassLibrary.dll
