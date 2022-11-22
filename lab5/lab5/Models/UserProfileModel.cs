@@ -1,0 +1,8 @@
+﻿namespace lab5.Models;
+
+public class UserProfileModel
+{
+    public string Email { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+}
