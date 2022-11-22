@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackAsTool>true</PackAsTool>
+        <PackageId>crossplatform</PackageId>
+        <ToolCommandName>mropalo</ToolCommandName>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageType>DotNetCliTool</PackageType>
+        <Description>crossplatform</Description>
+        <Copyright>Serhii</Copyright>
+        <Version>1.0.1</Version>
+        <ApplicationIcon />
+        <OutputType>Exe</OutputType>
+        <StartupObject />
+        <Authors>Mykyta</Authors>
+        <Company>Knu</Company>
+        <Product>Lab4</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\lab4.ClassLibrary\lab4.ClassLibrary.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="nupkg\" />
+    </ItemGroup>
+    <Target AfterTargets="Pack" Name="PushToBaget">
+      <Exec Condition="$(Configuration) == 'Release'" Command="dotnet nuget push &quot;nupkg\*.nupkg&quot; -s http://localhost:5002/v3/index.json"></Exec>
+    </Target>
+</Project>

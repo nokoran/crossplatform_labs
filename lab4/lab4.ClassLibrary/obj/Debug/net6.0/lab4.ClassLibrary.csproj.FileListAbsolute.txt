@@ -1,0 +1,12 @@
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\bin\Debug\net6.0\lab4.ClassLibrary.deps.json
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\bin\Debug\net6.0\lab4.ClassLibrary.dll
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\bin\Debug\net6.0\lab4.ClassLibrary.pdb
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\obj\Debug\net6.0\lab4.ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\obj\Debug\net6.0\lab4.ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\obj\Debug\net6.0\lab4.ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\obj\Debug\net6.0\lab4.ClassLibrary.AssemblyInfo.cs
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\obj\Debug\net6.0\lab4.ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\obj\Debug\net6.0\lab4.ClassLibrary.dll
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\obj\Debug\net6.0\refint\lab4.ClassLibrary.dll
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\obj\Debug\net6.0\lab4.ClassLibrary.pdb
+C:\Users\nokkoran\Documents\4 курс\CrossPlatform\lab4\lab4.ClassLibrary\obj\Debug\net6.0\ref\lab4.ClassLibrary.dll
